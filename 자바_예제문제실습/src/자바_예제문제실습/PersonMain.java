@@ -13,6 +13,7 @@ public class PersonMain {
 			
 			FileWriter fw = new FileWriter(file);
 			BufferedWriter bw = new BufferedWriter(fw);
+			
 			Person 사람 = new Person("김영희",10);
 			bw.write(사람.toString());
 			bw.close();
