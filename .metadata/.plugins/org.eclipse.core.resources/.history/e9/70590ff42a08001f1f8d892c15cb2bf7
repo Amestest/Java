@@ -1,0 +1,7 @@
+package com.kh.Sandwich;
+
+public class 샌드위치 {
+//필드
+	private String 고객명;
+	private String 샌드위치종류;
+}

@@ -1,0 +1,28 @@
+package com.kh.Sandwich;
+
+public class 샌드위치 {
+//필드
+	private String 고객명;
+	private String 샌드위치종류;
+	
+	
+//메서드
+	//Getter
+	
+	//Setter
+	
+	//생성자 필수
+	public 샌드위치(String 고객명, String 샌드위치종류) {
+		super();
+		this.고객명 = 고객명;
+		this.샌드위치종류 = 샌드위치종류;
+	}
+	//@Override
+
+
+	@Override
+	public String toString() {
+		return "고객명=" + 고객명 + ", 샌드위치종류=" + 샌드위치종류 + "";
+	}
+	
+}

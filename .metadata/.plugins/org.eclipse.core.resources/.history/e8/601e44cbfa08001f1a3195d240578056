@@ -1,0 +1,14 @@
+package ncs.test13;
+
+import java.util.*;
+
+public class Maptest {
+	public static void main(String[] args) {
+		Map<String, Inventory> inventoryMap = new HashMap<>();
+		
+		
+		//상품 정보 String 으로 어떤 핸드폰인지 작성 Inventory 핸드폰 정보 넣기
+		//상품 정보 등록
+		invnetoryMap.put("삼성 갤럭시S7", new Inventory());
+	}
+}

@@ -1,0 +1,13 @@
+package com.kh.test.main;
+
+public class 객체힙스택1 {
+	public static void main(String[] args) {
+		Car 차1 = new Car();
+		
+		
+		Car 차2 = new Car();
+		System.out.println("차1 : " + 차1);
+		System.out.println("차2 : " + 차2);
+		
+	}
+}

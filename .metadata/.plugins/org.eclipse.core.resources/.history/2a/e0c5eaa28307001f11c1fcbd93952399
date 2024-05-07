@@ -1,0 +1,10 @@
+package ncs.test4;
+
+public class ProductTest {
+	
+	
+	//스캐너를 이용해서 입추력받기
+	Scanner sc = new Scanner(System.in);
+	
+	
+}

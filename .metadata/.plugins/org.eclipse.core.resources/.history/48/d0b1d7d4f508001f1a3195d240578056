@@ -1,0 +1,13 @@
+package com.kh.datePre;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DatePre3 {
+	public static void main(String[] args) {
+		Date now = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yy / MM / dd / E");
+		System.out.println(sdf);
+	}
+}

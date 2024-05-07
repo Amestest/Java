@@ -1,0 +1,11 @@
+package com.kh.Sandwich;
+
+public class 샌드위치가게 {
+	public static void main(String[] args) {
+		//주문리스트 ArrayList
+		
+		//고객명 HashSet
+		
+		//중복제거리스트 ArrayList
+	}
+}

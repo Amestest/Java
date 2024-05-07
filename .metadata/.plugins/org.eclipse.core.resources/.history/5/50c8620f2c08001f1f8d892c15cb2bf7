@@ -1,0 +1,19 @@
+package com.kh.Sandwich;
+
+public class 샌드위치가게 {
+	public static void main(String[] args) {
+		//주문리스트 ArrayList
+		
+		//"김하나","BLT"  //"이둘","터키"  //"김하나","치킨"
+		//"이셋","에그마요"  //"김하나","베지터블"
+		
+		//고객명 HashSet
+		
+		//중복제거리스트 ArrayList
+	
+		//중복여부를 확인하고 중복되지 않은 주문만 리스트에 추가
+		
+		//중복제거리스트 출력
+	
+	}
+}

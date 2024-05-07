@@ -1,0 +1,5 @@
+package com.kh.oop.pre;
+//그리는 인터페이스
+public interface Drawble {
+	public void draw();
+}

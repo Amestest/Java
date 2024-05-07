@@ -1,0 +1,11 @@
+package com.kh.goodsShop;
+
+import java.util.*;
+
+public class GoodsShop {
+	public static void main(String[] args) {
+		Map<String, Integer> 아이템 = new HashMap<>();
+		
+		
+	}
+}

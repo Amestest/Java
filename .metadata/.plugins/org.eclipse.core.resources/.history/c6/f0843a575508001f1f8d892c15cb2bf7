@@ -1,0 +1,17 @@
+package com.kh.fileEx;
+
+public class FileEx {
+	// ctrl shift f 줄 정렬
+	public static void main(String[] args) {
+		//파일이 존재하는 확인
+		//파일만들고 글 작성하기
+		String 파일이름 = "example.txt" 
+		
+	}
+}
+
+
+
+
+
+

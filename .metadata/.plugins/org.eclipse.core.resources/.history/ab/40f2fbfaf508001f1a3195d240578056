@@ -1,0 +1,19 @@
+package com.kh.datePre;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DatePre3 {
+	public static void main(String[] args) {
+		Date now = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yy / MM / dd / E");
+		//  System.out.println(sdf);  java.text.SimpleDateFormat@3d658514
+	
+		//sdf는 변환하고 싶은 규칙일 뿐이지 날짜를 가져올 수 있는 것은 아님
+		String formatsdf = sdf.format(now);
+		System.out.println(formatsdf);
+		
+		
+	}
+}

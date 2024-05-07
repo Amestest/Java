@@ -1,0 +1,6 @@
+package com.kh.test.main.oop;
+//자식클래스로 부모클래스를 상속 extends 인터페이스가 아니라 클래스를 상속 받을 때는
+//하나밖에 상속을 못받기 때문에 extends를 사용한 후 하나의 클래스만 작성해줘야함
+public class Child {
+
+}

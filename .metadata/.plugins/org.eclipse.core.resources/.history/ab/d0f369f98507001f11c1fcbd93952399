@@ -1,0 +1,8 @@
+package ncs.test8;
+
+public class User {
+	//User 객체를 담을 수 잇는 배열 선언
+	User[] users = new User[3];
+	
+	//3개의 User객체 생성해서 배열에 넣기
+}

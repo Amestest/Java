@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>movie is fun.</comment>
+<entry key="1">패밀리맨,4,2000</entry>
+<entry key="2">엘리멘탈,5,2023</entry>
+<entry key="3">투모로우,5,2004</entry>
+</properties>

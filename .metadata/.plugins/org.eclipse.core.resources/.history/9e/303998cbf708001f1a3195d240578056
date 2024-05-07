@@ -1,0 +1,24 @@
+package ncs.test13;
+
+import java.util.Date;
+
+public class Inventory {
+	private String productName;
+	private Date putDate;
+	private Date getDate;
+	private int putAmount;
+	private int getAmount;
+	private int inventoryAmount;
+	
+//메서드
+	//기본 생성자
+	public Inventory() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	//필수 생성자
+	
+	//Getter Setter
+	//toString @Override
+
+}

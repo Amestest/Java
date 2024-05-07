@@ -1,0 +1,16 @@
+package com.kh.PropertiesPre;
+
+import java.util.Properties;
+
+public class PropertiesPre {
+	public static void main(String[] args) {
+		Properties 설정 = new Properties();
+		
+		
+		//속성 설정
+		설정.setProperty("이름", "김다섯");
+		설정.setProperty("나이", "15"); //모든 표기는 숫자 또한 " " 작성해야함
+		설정.setProperty("사는곳", "서울");
+		
+	}
+}

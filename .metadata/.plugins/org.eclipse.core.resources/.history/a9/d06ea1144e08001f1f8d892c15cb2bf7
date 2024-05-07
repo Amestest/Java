@@ -1,0 +1,14 @@
+package com.kh.BasicEx;
+
+
+//안쓰는 것 청소해서 정리하기
+/*
+  
+ Garbage = 쓰레기
+ Collection = 수집
+  
+  더이상 사용되지 않는 객체나 변수를 자동으로 졍리하는 방식
+  */
+public class 가비지컬렉터 {
+
+}

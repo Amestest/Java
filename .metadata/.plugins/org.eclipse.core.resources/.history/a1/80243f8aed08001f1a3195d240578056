@@ -1,0 +1,9 @@
+package com.kh.datePre;
+
+public class DateEx {
+	public static void main(String[] args) {
+		//Date로 현재 날짜를 받아서 년-월-일 출력하기
+		//Date는 최초1회만 호출 Date now - now Date();
+		//SimpleDateFormat sdf1 = new SimpleDateFormat();
+	}
+}

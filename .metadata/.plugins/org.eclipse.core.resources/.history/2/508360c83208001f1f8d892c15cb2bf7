@@ -1,0 +1,15 @@
+package com.kh.goodsShop;
+
+import java.util.*;
+
+public class GoodsShop {
+	public static void main(String[] args) {
+		Map<String, Integer> 아이템 = new HashMap<>();
+		
+		System.out.println("혼저옵서예. 제주에 오신 것을 환영합니다.");
+	
+		//물품과 가격 추가
+		아이템.put("동백모자", 20000);
+	
+	}
+}

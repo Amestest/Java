@@ -1,0 +1,25 @@
+package ncs.test15;
+
+public class BookArrayTest {
+	public static void main(String[] args) {
+		Book[] bArray = new Book[3];
+				
+		bArray[0] = new Book("자바의 정석", "남궁성",30000,"도우출판",0.1);
+		bArray[1] = new Book("열혈가의 자바","구정은",29000,"프리텍",0.1);
+		bArray[2] = new Book("객체지향 JAVA8","금영옥",30000,"북스홈",0.1);
+		
+		
+		
+		//for-each문을 사용해서 출력
+	for(Book b : bArray) {
+		System.out.println("Title : "+ b.getTitle());
+		System.out.println("Author : "+ b.getAuthor());
+		System.out.println("Price : "+ b.getPrice());
+		System.out.println("Publisher : "+ b.getPrice());
+		System.out.println("DicountRate : "+ b.getDiscountRate());
+		System.out.println("할인된 가격 : " + b.get할인가());
+		System.out.println("==================");
+	}
+	
+	}
+}

@@ -1,0 +1,18 @@
+package com.kh.ToyStore;
+
+import java.util.*;
+
+public class ToyStore {
+	
+	public static void main(String[] args) {
+		//장난감 가게 재고를 HashMap으로 표현
+		Map<String, Integer> 재고 = new HashMap<>();
+		재고.put("자동차", 10);
+		재고.put("인형", 15);
+		재고.put("공", 20);
+		
+	
+	}
+	
+	
+}

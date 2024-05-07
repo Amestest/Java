@@ -1,0 +1,10 @@
+package com.kh.ExceptionEx;
+/*
+ Throws : 메서드에서 발생할 수 있는 예외를 호출한 공간으로 전달해서 처리하게 끔 예외 전달 처리
+   
+  	try-catch 길어지거나 다르게 예외를 넘길 때 사용
+   
+  */
+public class ThrowEx {
+
+}

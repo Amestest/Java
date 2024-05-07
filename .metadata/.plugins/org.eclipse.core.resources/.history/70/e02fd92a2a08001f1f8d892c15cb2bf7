@@ -1,0 +1,51 @@
+package com.kh.Hamburger;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class BurgerShop {
+	
+	public static void main(String[] args) {
+		//ArrayList 사용 주문 리스트
+		List<HamburgerOrder> 주문리스트 = new ArrayList<>();
+		
+		주문리스트.add(new HamburgerOrder("동그라미","치즈버서"));
+		주문리스트.add(new HamburgerOrder("안세모","베이컨버서"));
+		주문리스트.add(new HamburgerOrder("박네모","상하이버서"));
+		주문리스트.add(new HamburgerOrder("금각진","치킨버서"));
+		주문리스트.add(new HamburgerOrder("동그라미","빅맥"));
+		
+		//toString 출력 sysout 주문리스트
+		System.out.println(주문리스트);
+		
+		//ArrayList에 담긴 중복으로 된 사람들을 중복으로 주문하지 못하게 하고 싶습니다.
+		//HashSet
+		
+		System.out.println("고객님 중복 주문이시네요!!");
+		System.out.println("처음주문만 받겠습니다.");
+		
+		// HashSet 사용해서 중복 주문을 방지하기 위한 set  중복주문방지
+		// 중복된 주문 정보 제거한거 출력
+		
+		Set<String> 중복고객제거 = new HashSet<>();
+		
+		//중복 고객을 제거한 다음에 중복되지 않ㅇ느 고객만 ArrayList에 다시 담기
+		
+		List<HamburgerOrder> 중복제거주문 = new ArrayList<>();
+		
+		
+		//for - each문을 활용해서 중복이 있는지 한바퀴 돌면서 확인한 다음
+		//중복이 되지 않는 내용만 추가
+		for(HamburgerOrder 주문 : 주문리스트) {
+			if(중복고객제거.contains(주문.get고객명())) {
+				 중복제거주문.add(주문);
+				 중복고객제거.add(주문.get고객명());
+			}
+			
+		}
+		
+		
+	}
+}

@@ -1,0 +1,36 @@
+package ncs4.test2;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class PropTest {
+	//파일저장
+	public static void fileSave(Properties p) throws IOException{
+		//Properties 객체에 데이터 저장
+		p.setProperty("1", "apple,1200,3");
+		p.setProperty("2", "banana,2500,2");
+		p.setProperty("3", "grape,4500,5");
+		p.setProperty("4", "orange,800,10");
+		p.setProperty("5", "melon,5000,2");
+		
+		//Properties 객체를 XML 파일로 저장
+		FileOutputStream fos = new FileOutputStream("data.xml");
+		p.storeToXML(fos, null); 
+		//xml 파일로 저장할 것 fos : 입출력 하겠따. 
+		//null 코멘트로 설명을 달아서 저장하겠다 라는 것
+		//추가로 작성할 설명이 없으면 null 처리를 함
+		fos.close();
+	}
+	
+	//파일 읽기
+	public static void fileOpen(Properties p) {
+		try {
+			
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+}

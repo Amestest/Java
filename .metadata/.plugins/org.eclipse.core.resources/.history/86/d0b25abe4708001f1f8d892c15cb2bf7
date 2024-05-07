@@ -1,0 +1,23 @@
+package com.kh.BasicEx;
+/*
+ import
+ 	다른 패키지(폴더)에 작성된 클래스가 필요할 때 필요한 구문
+  
+  	사용예제
+  		import 패키지명.클래스명;
+  		
+  		import java.Util.ArrayList; 
+  		   java 폴더 밑에 Util 폴더 안에 있는 ArrayList 파일을 사용한다는 의미
+  		
+  		import javja.Util.*;
+  		  java 폴더 밑에 Util폴더 안에 있는 모든 파일을 가져올 수 있음을 의미
+  		   * 를 쓴다하여 모든 파일을 가지고 오게 되면 프로그램 속도가 낮아질 수 있기 때문에
+  		  모두 가져오는 것이 아니라 가져올 수 있는 준비가 완료된 것임
+  		  
+  		  
+  		  
+  		
+  */
+public class Import {
+
+}

@@ -1,0 +1,14 @@
+package com.kh.test.main;
+
+public class ParseStringPre2 {
+	public static void main(String[] args) {
+		//String으로 받은 핸드폰번호를 정수로 변경
+		String phoneNumber = "01012345678";
+		int num1;
+		
+		//String으로 받은 점수를 실수로 변경
+		String score = "88.9";
+		double num2;
+		
+	}
+}

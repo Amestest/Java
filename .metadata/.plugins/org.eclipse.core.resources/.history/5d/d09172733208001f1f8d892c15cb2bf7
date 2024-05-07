@@ -1,0 +1,7 @@
+package com.kh.goodsShop;
+
+public class GoodsShop {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.kh.datePre;
+
+public class DatePre3 {
+	public static void main(String[] args) {
+		Date now = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yy / MM / dd / E");
+	}
+}

@@ -1,0 +1,10 @@
+package ncs.test13;
+
+import java.util.*;
+
+public class Maptest {
+	public static void main(String[] args) {
+		Map<String, Inventory> inventoryMap = new HashMap<>();
+		
+	}
+}

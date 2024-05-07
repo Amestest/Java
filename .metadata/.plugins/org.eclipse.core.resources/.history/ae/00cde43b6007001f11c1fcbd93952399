@@ -1,0 +1,5 @@
+package com.kh.oop.pre;
+
+public class interfaceShape {
+	public double Area();
+}

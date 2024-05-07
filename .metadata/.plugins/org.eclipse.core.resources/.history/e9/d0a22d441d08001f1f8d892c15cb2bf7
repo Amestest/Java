@@ -1,0 +1,24 @@
+package com.kh.test.main;
+
+import java.util.ArrayList;
+
+//Arraylist와 HashSet 함께 사용하기
+
+public class ListSetEx {
+	
+	public static void main(String[] args) {
+		ArrayList<String> 리스트 = new ArrayList<>();
+		
+		//값추가
+		리스트.add("피자");
+		리스트.add("햄버거");
+		리스트.add("서브웨이");
+		리스트.add("피자");
+		
+		//HashSet 선언 초기화
+		//객체를 통해 인스턴스 만듦
+		HashSet<String> 해시셋 = new HashSet<>();
+		
+		
+	}
+}

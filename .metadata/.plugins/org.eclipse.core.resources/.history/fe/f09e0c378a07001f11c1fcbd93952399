@@ -1,0 +1,5 @@
+package com.kh.oop.pre;
+//상속 부모
+public class Animal {
+
+}

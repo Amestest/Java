@@ -1,0 +1,8 @@
+package com.kh.test.main;
+
+public class 리스트예제 {
+	public static void main(String[] args) {
+		//ArrayList 생성
+		ArrayList<String> 리스트 = new ArrayList<>();
+	}
+}

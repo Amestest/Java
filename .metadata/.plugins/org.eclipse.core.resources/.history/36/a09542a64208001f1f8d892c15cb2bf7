@@ -1,0 +1,7 @@
+package com.kh.PropertiesPre;
+
+public class PropertiesPre {
+	public static void main(String[] args) {
+		Properties 설정 = new Properties();
+	}
+}

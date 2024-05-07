@@ -1,0 +1,23 @@
+package com.kh.fileEx;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FileEx {
+	// ctrl shift f 줄 정렬
+	public static void main(String[] args) throws IOException {
+		
+		//파일만들고 글 작성하기
+		String 파일이름 = "example.txt";
+		
+		File file = new File(파일이름);
+		//파일이 존재하는 확인
+		if(file.exists()) {
+			System.out.println("파일이 이미 존재 합니다.");
+		} else {
+			file.createNewFile();
+			System.out.println("파일을 생성했습니다.");
+		}
+		
+	}
+}

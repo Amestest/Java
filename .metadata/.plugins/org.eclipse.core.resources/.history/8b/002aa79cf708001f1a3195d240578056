@@ -1,0 +1,10 @@
+package ncs.test13;
+
+public class Inventory {
+	private String productName;
+	private Date putDate;
+	private Date getDate;
+	private int putAmount;
+	private int getAmount;
+	private int inventoryAmount;
+}

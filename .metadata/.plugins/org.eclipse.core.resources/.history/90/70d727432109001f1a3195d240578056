@@ -1,0 +1,20 @@
+package pre.propertiesEx2;
+
+import java.util.Properties;
+
+public class PropTest {
+	//fileSave
+	// 1   순풍산부인과  1998  682
+	// 2   똑바로살아라  2002  239
+	// 3   눈물의 여왕  2024  16
+	// 4   아내의유혹   2008  129
+	//drama.xml
+	public static void fileSave(Properties p) {
+		p.setProperty("1", "순풍산부인과,1998,682");
+		p.setProperty("2", "똑바로살아라,2002,239");
+		p.setProperty("3", "눈물의여왕,2024,16");
+		p.setProperty("4", "아내의유혹,2008,129");
+		
+		
+	}
+}

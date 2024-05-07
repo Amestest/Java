@@ -1,0 +1,15 @@
+package com.kh.fileEx;
+
+public class FilePre {
+	public static void main(String[] args) {
+		String 파일이름 = "practice.txt";
+				
+		//파일이 존재하는 확인
+		//존재하지 않는다면 만들어줌
+		//존재한다면 이미 존재합니다. 라는 문구를 출력
+		
+		//파일에 글을 작성하기
+		// Java \n File \n 객체 \n 종료하기 실행
+		
+	}
+}

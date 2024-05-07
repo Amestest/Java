@@ -1,0 +1,12 @@
+package ncs.test8;
+
+public class UserTest {
+	
+	public static void main(String[] args) {
+		//User 객체를 담을 수 잇는 배열 선djs
+		User[] users = new user[3];
+		
+		//3개의 User 객체 생성해서 배열에 넣기
+		users[0] = new User("user01", "비번1","김철수",32,'M',"010-1234-5678");
+	}
+}

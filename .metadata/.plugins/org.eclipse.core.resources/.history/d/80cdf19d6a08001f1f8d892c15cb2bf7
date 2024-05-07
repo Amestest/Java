@@ -1,0 +1,23 @@
+package ncs.test5;
+
+public class Book {
+//필드
+	private String title;
+	private String author;
+	private int price;
+	private String publisher;
+	private double discountRet;
+	//기본생성자
+	public Book() {
+	
+	}
+	//필수생성자
+	public Book(String title, String author, int price, String publisher, double discountRet) {
+		super();
+		this.title = title;
+		this.author = author;
+		this.price = price;
+		this.publisher = publisher;
+		this.discountRet = discountRet;
+	}
+}

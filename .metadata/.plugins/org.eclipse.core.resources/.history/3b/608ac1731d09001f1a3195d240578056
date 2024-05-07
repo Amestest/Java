@@ -1,0 +1,7 @@
+package pre.propertiesEx;
+
+public class Movies {
+	private String name;
+	private int 평점;
+	private int 관람객;
+}

@@ -1,0 +1,16 @@
+package com.kh.collectionEx;
+/*
+ Map = 인터페이스 / HashMap TreeMap LinkedMap 클래스를 사용해야함
+ Properties 키(key) 값(value) 문자열 형태로 저장되는 클래스 
+  일반적으로 속성파일을 읽거나 쓰는데 사용
+  주로 텍스트파일로 저장됨
+  키와 값이 모두 문자열
+  
+  	메서드
+  	load() : 파일을 대기
+  	store() : 파일을 저장
+  
+  */
+public class Properties {
+
+}

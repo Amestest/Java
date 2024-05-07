@@ -1,0 +1,11 @@
+package com.kh.test.main;
+
+import java.util.Scanner;
+
+public class 정규표현식 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("한글을 입력하세요 : ");
+		String 입력 = sc.nextLine();
+	}
+}

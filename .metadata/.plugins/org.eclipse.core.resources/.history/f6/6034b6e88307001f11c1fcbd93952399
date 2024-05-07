@@ -1,0 +1,12 @@
+package ncs.test4;
+
+public class ProductTest {
+	public static void main(String[] args) {
+		
+	}
+	//스캐너를 이용해서 입추력받기
+	Scanner sc = new Scanner(System.in);
+	
+	//키보드로부터 상품 입력받기
+	sysout
+}

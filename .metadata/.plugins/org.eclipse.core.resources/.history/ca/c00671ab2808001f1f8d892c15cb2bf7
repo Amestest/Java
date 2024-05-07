@@ -1,0 +1,20 @@
+package com.kh.Hamburger;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BurgerShop {
+	
+	public static void main(String[] args) {
+		//ArrayList 사용 주문 리스트
+		List<HAmburgerOrder> 주문리스트 = new ArrayList<>();
+		
+		//new BurgerOrder("동그라미","치즈버서")
+		//new BurgerOrder("안세모","베이컨버서")
+		//new BurgerOrder("박네모","상하이버서")
+		//new BurgerOrder("금각진","치킨버서")
+		//new BurgerOrder("동그라미","빅맥")
+		
+		//toString 출력 sysout 주문리스트
+	}
+}

@@ -1,0 +1,11 @@
+package com.kh.NumberSystem;
+
+public class 숫자시스템 {
+	public static void main(String[] args) {
+		int 숫자 = 42;
+		
+		//42라는 숫자를 2진수로 변환
+		String 이진수 = Integer.toBinaryString(숫자);
+		System.out.println(이진수);
+	}
+}
