@@ -30,4 +30,9 @@ public class 오버로딩 {
 	public void test(boolean a, boolean b , boolean c) {}
 	public void test(boolean a, boolean b) {}
 	
+	public String test(long a) {
+		return "테스트";
+	}
+	
+	
 }
