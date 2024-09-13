@@ -1,9 +1,0 @@
-package com.kh.oop.pre;
-
-public class Circle implements Drawble,Shape{
-
-	public double Area() {
-		return 4.8;
-	}
-	
-}

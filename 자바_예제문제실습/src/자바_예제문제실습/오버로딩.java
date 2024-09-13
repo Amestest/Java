@@ -19,7 +19,6 @@ public class 오버로딩 {
 	
 	public void test(short s, long z) {}
 	public void test(short c) {}
-
 	
 	public void test(int a, String b) {}
 	public void test(int a, String b, String c) {}
@@ -33,6 +32,11 @@ public class 오버로딩 {
 	public String test(long a) {
 		return "테스트";
 	}
-	
+	public int test(short i,short j) {
+		return 0;
+	}
+	public int test(String x,String y) {
+		return 0;
+	}
 	
 }

@@ -1,7 +1,0 @@
-package com.kh.datePre;
-
-public class DateEx {
-	public static void main(String[] args) {
-		
-	}
-}

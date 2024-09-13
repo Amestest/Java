@@ -1,9 +1,0 @@
-package com.kh.test.main;
-
-public class ListSetEx {
-	
-	public static void main(String[] args) {
-		
-		
-	}
-}

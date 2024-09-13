@@ -1,7 +1,0 @@
-package com.kh.test.main;
-
-public class ParseStringPre2 {
-	public static void main(String[] args) {
-		
-	}
-}
